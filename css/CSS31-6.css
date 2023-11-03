@@ -1,0 +1,9 @@
+body{
+    background-color: rgba(0, 256, 0, 0.4);
+}
+#texto{
+    columns: 3;
+    column-width:50px;
+    column-gap: 10px;
+    column-rule: 2px solid black;
+}

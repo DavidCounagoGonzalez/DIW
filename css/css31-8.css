@@ -1,0 +1,8 @@
+@import url(css31-8All.css) all;
+
+@import url(css31-8Screen.css) screen;
+
+img{
+    height: 250px;
+    width: 400px;;
+}

@@ -1,0 +1,23 @@
+@media all{
+    p{
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
+@media screen{
+    #imagen{
+        margin: auto;
+        width: 50%;
+    }
+}
+
+@media print{
+    nav,header,footer,aside {
+        visibility: hidden;
+    }
+}
+
+img{
+    height: 250px;
+    width: 400px;;
+}
