@@ -1,0 +1,9 @@
+#zona{
+    border: 2px solid black;
+    padding: 15px 80px 24px 100px;
+}
+#cuadro{
+    background-color: lightslategray;
+    height: 100px;
+    width: 200px; 
+}
