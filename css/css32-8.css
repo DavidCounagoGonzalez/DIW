@@ -1,0 +1,20 @@
+a:link{
+    color: blue;
+}
+a:visited{
+    color: rebeccapurple;
+    font-style: italic;
+}
+a:hover{
+    font-size: bold;
+}
+a:active{
+    color: red;
+}
+input:focus{
+    background-color: lightpink;
+}
+q:lang(en){
+    font-style: italic;
+    font-weight: bold;
+}

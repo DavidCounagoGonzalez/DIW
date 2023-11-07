@@ -1,0 +1,34 @@
+*{
+    color: green;
+    text-align: left;
+}
+h1,h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-size: 2em;
+    color: blue;
+}
+div p{
+    color: black;
+}
+div * p{
+    font-weight: bold;
+}
+div > p{
+    background-color: aquamarine;
+}
+h1 + div{
+    background-color: bisque;
+}
+p ~ span{
+    color: lightskyblue;
+}
+a[href$=".es"]{
+    color: blue;
+    font-weight: bold;
+}
+a[href*="git"]{
+    color: blueviolet;
+    font-style: italic;
+}

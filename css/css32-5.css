@@ -1,0 +1,14 @@
+.texto{
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
+.divs{
+    border: 2px solid black;
+}
+#d2{
+    border-color: firebrick;
+    padding: 10px;
+}
+#enlace{
+    color: blue;
+}

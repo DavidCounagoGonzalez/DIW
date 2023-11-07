@@ -1,0 +1,10 @@
+input:required{
+    outline: 2px solid deeppink;
+}
+input:optional{
+    outline: 2px solid deepskyblue;
+}
+input{
+    border: none;
+    margin: 10px;
+}

@@ -1,0 +1,23 @@
+a{
+    color: green;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+    text-decoration: underline;
+}
+a:visited{
+    font-weight: bold;
+    color: black;
+}
+li{
+    font-style: italic;
+}
+.titulos:nth-of-type(odd){
+    color: black;
+    text-decoration: underline;
+}
+.titulos:nth-of-type(even){
+    color: grey;
+    text-decoration: none;
+}
