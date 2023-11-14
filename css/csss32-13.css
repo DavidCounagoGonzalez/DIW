@@ -13,11 +13,11 @@ a:visited{
 li{
     font-style: italic;
 }
-.titulos:nth-child(odd){
+.impar{
     color: black;
     text-decoration: underline;
 }
-.titulos:nth-child(even){
+.par{
     color: grey;
     text-decoration: none;
 }
