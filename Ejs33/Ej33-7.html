@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .diagonal{
+            height: 200px;
+            background-image: linear-gradient(45deg,
+             red,yellow,green,blue,purple,white);
+        }
+        .columnas{
+            height: 200px;
+            margin: 10px;
+            background-image: linear-gradient(to right,
+             red 40%, orange 80%, aqua);
+            background-size: 90px;
+        }
+        .circle{
+            height: 200px;
+            margin: 10px;
+            background-image: radial-gradient(closest-side at 60% 55%,
+             blue 10%, green 40%, yellow 90%, orange 140%);
+            background-size: 200px;
+            background-repeat: no-repeat;
+        }
+        .conico{
+            height: 200px;
+            width: 200px;
+            margin: 10px;
+            background-image: conic-gradient(from 180deg,
+            red, yellow, green, blue, aqua, pink);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            border-radius: 60px;
+        }
+        </style>
+</head>
+<body>
+    <div class="diagonal"></div>
+    <div class="columnas"></div>
+    <div class="circle"></div>
+    <div class="conico"></div>
+</body>
+</html>
