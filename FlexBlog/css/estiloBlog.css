@@ -6,7 +6,7 @@
 
 body{
     font-family: 'Open-sans', sans-serif;
-    background-image: url(../media/fondo.jpg);
+    background-image: url(../img/fondo.jpg);
     background-repeat: repeat;
     background-attachment: fixed;
 }
@@ -19,7 +19,7 @@ body{
 
 nav {
     display: flex;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
     justify-content: space-between;
 }
 
@@ -28,7 +28,8 @@ nav ul{
     align-items: center;
     padding-right: 60px;
     gap: 30%;
-    justify-content: flex-end;
+    justify-content: space-around;
+    width: max-content;
 }
 
 nav ul li{
@@ -125,14 +126,44 @@ footer ul li a{
     color: white;
 }
 
-@media (max-width:400px){
+@media (max-width:425px){
+
+    nav{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    nav ul{
+        background-color: rgba(255, 255, 255, .2);
+        padding: 20px;
+        gap: 0;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .sub-contenedor{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
     .main{
-        width: auto;
+        width: 100%;
     }
 
     aside{
-        flex-direction: column;
-        width: auto;
-        margin:0;    
-      }
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .ad{
+        padding: 10%;
+    }
+
+    footer{
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 10px;
+    }
+
+    
 }
