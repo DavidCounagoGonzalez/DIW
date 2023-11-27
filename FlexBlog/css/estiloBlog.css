@@ -119,11 +119,16 @@ footer ul{
 
 footer ul li{
     list-style: none;
-    text-decoration: underline;
+    
 }
 
 footer ul li a{
     color: white;
+    text-decoration: underline;
+}
+
+footer ul li a:hover{
+    text-decoration: none;
 }
 
 @media (max-width:425px){
