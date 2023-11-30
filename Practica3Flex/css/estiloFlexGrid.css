@@ -5,3 +5,90 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@100&display=swap');
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-image: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content: right;
+    padding: 3%;
+    margin-right: 100px;
+}
+
+nav ul{
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+main{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+}
+
+#titulo{
+    color: white;
+    font-weight: normal;
+    font-size: 18px;
+    outline: 1px solid white;
+    padding: 20px 50px;
+    text-align: center;
+}
+
+#titulo .nombre{
+    font-size: 2em;
+}
+
+#acercaDe{ 
+
+    margin: 10% 20% 10% 20%;
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#perfil{
+    width: 100px;
+    height: 100px;
+}
+
+#perfil img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 60px;
+}
+
+#acercaDe h2{
+    font-weight: normal;
+    color: orange;
+}
+
+#Trabajos{
+    background-color: lightgrey;
+    padding: 30px;
+    display: grid;
+}
+
+#Trabajos h2{
+
+}
+
+

@@ -50,7 +50,7 @@ nav ul li a:hover{
     flex-direction: row;
 }
 
-.main{
+main{
     background-color: white;
     width: 70%;
 }
@@ -151,7 +151,7 @@ footer ul li a:hover{
         flex-wrap: wrap;
     }
 
-    .main{
+    main{
         width: 100%;
     }
 
