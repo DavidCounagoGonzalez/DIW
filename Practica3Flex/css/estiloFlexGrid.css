@@ -5,13 +5,19 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 body{
     font-family: 'Open Sans', sans-serif;
+    
+}
+
+header{
     background-image: url("../img/bg.jpg");
     background-repeat: no-repeat;
     background-attachment: scroll;
-    background-size: 100%;
+    background-size: cover;
+    align-items: center;
+    height: 500px;
 }
 
 nav{
@@ -19,6 +25,7 @@ nav{
     justify-content: right;
     padding: 3%;
     margin-right: 100px;
+    height: 40%;
 }
 
 nav ul{
@@ -36,18 +43,17 @@ nav ul li a{
     text-decoration: none;
 }
 
-main{
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    margin-top: 10%;
+nav ul li a:hover{
+    text-decoration: underline;
 }
 
 #titulo{
+    width: 500px;
     color: white;
     font-weight: normal;
     font-size: 18px;
     outline: 1px solid white;
+    margin: 0 auto;
     padding: 20px 50px;
     text-align: center;
 }
@@ -56,24 +62,27 @@ main{
     font-size: 2em;
 }
 
-#acercaDe{ 
+main{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
 
-    margin: 10% 20% 10% 20%;
+.pepe{
+    width: 100px;
+    box-shadow: 0px -5px 4px rgb(51, 171, 211);
+    border-radius: 60px;
+    position: relative;
+    bottom: 50px;
+}
+
+#acercaDe{ 
+    margin: 0% 20% 10% 20%;
     display: flex;
     justify-items: center;
     flex-direction: column;
     text-align: center;
-}
-
-#perfil{
-    width: 100px;
-    height: 100px;
-}
-
-#perfil img{
-    max-width: 100%;
-    max-height: 100%;
-    border-radius: 60px;
+    align-items: center;
 }
 
 #acercaDe h2{
@@ -84,11 +93,71 @@ main{
 #Trabajos{
     background-color: lightgrey;
     padding: 30px;
-    display: grid;
+    width: 100%;
+    text-align: center;
 }
 
 #Trabajos h2{
-
+    margin-top: 3%;    justify-content: center;
+    font-weight: normal;
+    font-size: 2em;
 }
 
+.mosaico{    line-height: normal;
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(4,1fr);
+    row-gap: 35px;
+    column-gap: 25px;
+    padding:5%;
+}
+
+.mosaico div{
+    display: grid;
+    row-gap: 15px;
+}
+
+.mosaico div img{
+    width: 100%;
+    height: 100%;
+}
+
+.mosaico div p:nth-child(2){
+    color: rgb(51, 171, 211);
+    font-weight: bold;
+}
+
+
+#Contacto{
+    width: 100%;
+    text-align: center;
+    padding: 5% 8%;
+}
+
+#Contacto h2{
+    color: rgb(88, 167, 212);
+    font-weight: normal;
+}
+
+#Contacto form{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 40px 100px 40px;
+    column-gap: 20px;
+    row-gap: 10px;
+}
+
+#Contacto form textarea{
+    grid-column: 1 / span 2;  
+}
+
+#Contacto form button{
+    background-color: rgb(48, 126, 199);
+    color: white;
+    width: 100px;
+    border-radius: 5px;
+    grid-column: 1 / span 2;
+    justify-self: center;
+}
 
