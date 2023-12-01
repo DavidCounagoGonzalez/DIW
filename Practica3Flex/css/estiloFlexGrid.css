@@ -77,21 +77,22 @@ main{
 }
 
 #acercaDe{ 
-    margin: 0% 20% 10% 20%;
+    margin: 0% 20% 5% 20%;
     display: flex;
     justify-items: center;
     flex-direction: column;
     text-align: center;
     align-items: center;
+    color: #5a5a5a;
 }
 
 #acercaDe h2{
     font-weight: normal;
-    color: orange;
+    color: #dd820d;
 }
 
 #Trabajos{
-    background-color: lightgrey;
+    background-color: #dddddd;
     padding: 30px;
     width: 100%;
     text-align: center;
@@ -101,9 +102,11 @@ main{
     margin-top: 3%;    justify-content: center;
     font-weight: normal;
     font-size: 2em;
+    color: #1a4064;
 }
 
-.mosaico{    line-height: normal;
+.mosaico{    
+    line-height: normal;
     display: grid;
     grid-template-rows: repeat(2,1fr);
     grid-template-columns: repeat(4,1fr);
@@ -153,11 +156,62 @@ main{
 }
 
 #Contacto form button{
-    background-color: rgb(48, 126, 199);
+    background-color: #3895ea;
     color: white;
     width: 100px;
     border-radius: 5px;
     grid-column: 1 / span 2;
     justify-self: center;
+}
+
+#Contacto form button:hover{
+    background-color: #387bea;
+}
+
+footer{
+    height: 175px;
+    background-color: #1e2b38;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer div{
+    display: flex;
+    gap: 50px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+footer a{
+    color: white;
+    width: 100px;
+    height:75px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    border-radius: 5px;
+}
+
+.twitter:hover{
+    background-color: #55acee;
+}
+
+.facebook:hover{
+    background-color: #3b5998;
+}
+
+.youtube:hover{
+    background-color: #cd201f;
+}
+
+.github:hover{
+    background-color: #666666;
+}
+
+.instagram:hover{
+    background-color: #3f729b;
 }
 
